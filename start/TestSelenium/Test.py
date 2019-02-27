@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # @Time     : 2019/2/23 21:55
 # @Author   : linlianyu
-# @File     : Test.py
+# @File     : TestReader.py
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
