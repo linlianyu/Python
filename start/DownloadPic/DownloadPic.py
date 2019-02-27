@@ -3,7 +3,7 @@
 # @Author   : linlianyu
 # @File     : DownloadPic.py
 import requests, bs4, os, traceback, time
-url = 'http://xkcd.com'
+url = 'http://xkcd.com/1562'
 os.makedirs(os.path.join('DownloadPic', 'xkcd'), exist_ok=True)
 while not url.endswith('#'):
     # 利用 requests.get()函数把网页下载

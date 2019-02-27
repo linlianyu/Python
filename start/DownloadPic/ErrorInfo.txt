@@ -1,0 +1,71 @@
+2019-02-23 15:10:52
+Traceback (most recent call last):
+  File "/Users/linlianyu/github/Python/start/DownloadPIc/DownloadPic.py", line 18, in <module>
+    page = requests.get('http:' + picUrl)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/requests/sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/requests/sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/requests/models.py", line 313, in prepare
+    self.prepare_url(url, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/requests/models.py", line 387, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL 'http:/2067/asset/challengers_header.png': No schema supplied. Perhaps you meant http://http:/2067/asset/challengers_header.png?
+2019-02-23 16:22:51
+Traceback (most recent call last):
+  File "/Users/linlianyu/github/Python/start/DownloadPIc/DownloadPic.py", line 18, in <module>
+    page = requests.get('http:' + picUrl)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/requests/sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/requests/sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/requests/models.py", line 313, in prepare
+    self.prepare_url(url, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/requests/models.py", line 387, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL 'http:/2067/asset/challengers_header.png': No schema supplied. Perhaps you meant http://http:/2067/asset/challengers_header.png?
+2019-02-23 16:49:47
+Traceback (most recent call last):
+  File "/Users/linlianyu/github/Python/start/DownloadPIc/DownloadPic.py", line 16, in <module>
+    picUrl = pic[0].get('src')
+IndexError: list index out of range
+2019-02-23 16:54:02
+Traceback (most recent call last):
+  File "/Users/linlianyu/github/Python/start/DownloadPIc/DownloadPic.py", line 16, in <module>
+    picUrl = pic[0].get('src')
+IndexError: list index out of range
+2019-02-23 17:11:57
+Traceback (most recent call last):
+  File "/Users/linlianyu/github/Python/start/DownloadPIc/DownloadPic.py", line 18, in <module>
+    page = requests.get('http:' + picUrl)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/requests/sessions.py", line 519, in request
+    prep = self.prepare_request(req)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/requests/sessions.py", line 462, in prepare_request
+    hooks=merge_hooks(request.hooks, self.hooks),
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/requests/models.py", line 313, in prepare
+    self.prepare_url(url, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/requests/models.py", line 387, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL 'http:/1525/bg.png': No schema supplied. Perhaps you meant http://http:/1525/bg.png?
+2019-02-23 17:19:39
+Traceback (most recent call last):
+  File "/Users/linlianyu/github/Python/start/DownloadPIc/DownloadPic.py", line 16, in <module>
+    picUrl = pic[0].get('src')
+IndexError: list index out of range
+2019-02-23 17:24:47
+Traceback (most recent call last):
+  File "/Users/linlianyu/github/Python/start/DownloadPIc/DownloadPic.py", line 16, in <module>
+    picUrl = pic[0].get('src')
+IndexError: list index out of range

@@ -2,7 +2,7 @@
 # @Time     : 2019/2/3 14:44
 # @Author   : linlianyu
 # @File     : TestHtml.py
-import requests, bs4
+import bs4
 exampleFile = open('Test.html')
 exampleSoup = bs4.BeautifulSoup(exampleFile, 'html.parser')
 print(type(exampleSoup))
